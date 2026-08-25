@@ -1,140 +1,145 @@
 # A list of some of my projects
 
+Each project has two ratings, scored between 0 and 10 (10 being the most difficult):
 
-Along with difficulty ratings scored between 0 and 10 (10 being the most difficult)
- • *Use*: Want to take a look and see what it's all about. `EG Most apps you can just click the link and use the app without creating an account`
- • *Size*: How big is the app. EG if it's a single page application hosted on git pages with no server then it's a 0. But if it requires a server, DNS config etc then it's higher.
+- **Use** — how much effort it takes to try it out. Most apps you can just click the link and use without creating an account.
+- **Size** — how big the app is. E.g. a single page app hosted on GitHub Pages with no server is a 0, but something that needs a server, DNS config etc. is higher.
 
-## <img src="https://theogibbons.github.io/notes/favicon.png" alt="App Icon" height="25px"> Notes (AKA Simple Drawing Pad)
+## <img src="https://theogibbons.github.io/notes/favicon.png" alt="App Icon" height="25px"> Notes (aka Simple Drawing Pad)
 
-![Offline](https://img.shields.io/badge/offline-blue) ![Save](https://img.shields.io/badge/save-blue) ![PWA](https://img.shields.io/badge/pwa-blue) ![OpenSource](https://img.shields.io/badge/opensource-blue)
+![No account](https://img.shields.io/badge/no%20account-blue) ![Offline](https://img.shields.io/badge/offline-blue) ![PWA](https://img.shields.io/badge/pwa-blue) ![Export Image](https://img.shields.io/badge/export%20image-blue) ![Local Save](https://img.shields.io/badge/local%20save-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
 
-[Link](https://theogibbons.github.io/notes) instantly use
-[GitHub](https://github.com/TheoGibbons/notes)
+[Link](https://theogibbons.github.io/notes) · [GitHub](https://github.com/TheoGibbons/notes)
+
+To use: click the link. No account needed.
 
 Simple drawing pad with an infinite canvas.
- • Offline/online
- • Installable PWA (progressive Web App)
- • Draw arrows
- • Draw rectangles
- • Draw circles
- • Draw text
- • Pen drawing
- • Insert images (crop,rotate)
- • Ctrl+v to paste images
- • Ctrl+s to instantly save
- • Save as PNG, webP etc.
- • Save project in LocalStorage
 
-Built because I was tired of Paint's limited drawing space and simplistic functions. Also the complexity of Gimp/Illustrator isn't suitable for simple everyday tasks. So this app sits somewhere between the two.
-Very functional but I haven't done any work on making the UI pretty.
+- Works offline and online
+- Installable PWA (Progressive Web App)
+- Draw arrows
+- Draw rectangles
+- Draw circles
+- Draw text
+- Pen drawing
+- Insert images (crop, rotate)
+- Ctrl+V to paste images
+- Ctrl+S to instantly save
+- Save as PNG, WebP etc.
+- Save the project in LocalStorage
 
-Use: 0
-Size: 1
+Built because I was tired of Paint's limited drawing space and simplistic functions. The complexity of GIMP/Illustrator isn't suitable for simple everyday tasks either, so this app sits somewhere between the two.
+Very functional, but I haven't done any work on making the UI pretty.
+
+**Use:** 0 · **Size:** 4
 
 ## <img src="https://www.sinkmailer.com/favicon.ico" alt="App Icon" height="25px"> Sink Mailer
 
-[Link](https://www.sinkmailer.com) To use: 1. Create an account 2. Setup smtp records in your app.
+![Account required](https://img.shields.io/badge/account%20required-blue) ![Hosted](https://img.shields.io/badge/hosted-blue) ![SMTP](https://img.shields.io/badge/smtp-blue) ![Multi user](https://img.shields.io/badge/multi%20user-blue)
+
+[Link](https://www.sinkmailer.com)
+
+To use: 1. Create an account. 2. Add the SMTP credentials to your app's config.
 
 Targeted at testing email on staging/local servers.
-Simply add the SMTP credentials to your apps config and send any email with the knowledge that emails won't reach the user.
-Login to your Sink Mailer account to see all emails that have been captured.
+Send any email from your app with the knowledge that it won't reach a real user, then log in to your Sink Mailer account to see everything that has been captured.
 
- • Create multiple inboxes (one for each project, or different environments)
- • Invite other users to your inboxes
- • Save emails as .eml files
- • Never worry about emails reaching there destination
+- Create multiple inboxes (one per project, or per environment)
+- Invite other users to your inboxes
+- Save emails as `.eml` files
+- Never worry about emails reaching their destination
 
-Use: 3
-Size: 8
+**Use:** 3 · **Size:** 8
 
 ## <img src="https://mysql-browser.sinkmailer.com/favicon.svg" alt="App Icon" height="25px"> MySQL Browser
 
+![Desktop app](https://img.shields.io/badge/desktop%20app-blue) ![Windows](https://img.shields.io/badge/windows-blue) ![Electron](https://img.shields.io/badge/electron-blue) ![SSH](https://img.shields.io/badge/ssh-blue) ![Auto updates](https://img.shields.io/badge/auto%20updates-blue)
+
 [Link](https://mysql-browser.sinkmailer.com/)
 
-The fastest and simplest MYSQL, Postgres browser you'll use.
- • Multi threaded so one query doesn't slow down another
- • Windows APP
- • Auto updates
- • Built on Electron
- • Unsigned exe so Windows complains on first install
- • Support SSH
- • Support SSH with AWS IAM credentials
+The fastest and simplest MySQL and Postgres browser you'll use.
 
-Use: 2
-Size: 8
+- Multi-threaded, so one query doesn't slow down another
+- Windows app
+- Auto updates
+- Built on Electron
+- Unsigned exe, so Windows complains on first install
+- Supports SSH
+- Supports SSH with AWS IAM credentials
 
+**Use:** 2 · **Size:** 8
 
-## <img src="https://baby.sinkmailer.com/icon.svg" alt="App Icon" height="25px">  Measure the Baby
+## <img src="https://baby.sinkmailer.com/icon.svg" alt="App Icon" height="25px"> Measure the Baby
 
-[link](https://baby.sinkmailer.com/)
-[GitHub](https://github.com/TheoGibbons/measure-the-baby)
+![Account required](https://img.shields.io/badge/account%20required-blue) ![PWA](https://img.shields.io/badge/pwa-blue) ![PDF print](https://img.shields.io/badge/pdf%20print-blue) ![CSV](https://img.shields.io/badge/csv-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
 
-Easily track your baby's weight, height, head circumference and BMI. From ages 1 to 5 this app will easily tell you what percentile your babies numbers are in.
- • Percentile numbers directly from the WHO (World Health Organisation)
- • Print a well formatted PDF ready to take to your doctor
- • Installable PWA (install on mobile or desktop)
- • Easy sign-in (email and password), no email verification, no MFA.
- • CSV Import
+[Link](https://baby.sinkmailer.com/) · [GitHub](https://github.com/TheoGibbons/measure-the-baby)
 
-Use: 1
-Size: 4
+Easily track your baby's weight, height, head circumference and BMI. From birth to age 5, this app tells you what percentile your baby's numbers are in.
 
+- Percentile numbers taken directly from the WHO (World Health Organisation) Child Growth Standards
+- Print a well formatted PDF, ready to take to your doctor
+- Installable PWA (install on mobile or desktop)
+- Easy sign-in (email and password), no email verification, no MFA
+- CSV import and export
 
-## <img src="https://baby-sign-language.vercel.app/_next/image?url=%2Fstatic%2Fimages%2Flogo.png&w=128&q=75" alt="App Icon" height="25px"> Baby Sign language
+**Use:** 1 · **Size:** 4
 
-[Demo](https://baby-sign-language.vercel.app/) Instantly use. Optionally create an account and save signs to a list.
-[GitHub](https://github.com/TheoGibbons/baby-sign-language)
+## <img src="https://baby-sign-language.vercel.app/_next/image?url=%2Fstatic%2Fimages%2Flogo.png&w=128&q=75" alt="App Icon" height="25px"> Baby Sign Language
 
-Re-skin of https://babysignlanguage.com
- • Instant search
- • Login with only a username
- • Create favourite list/s
- • Add/remove signs from lists
- • Embedded YouTube links
- • Many list view options
- • Next.js
+![No account](https://img.shields.io/badge/no%20account-blue) ![Next.js](https://img.shields.io/badge/next.js-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
 
-Use: 0
-Size: 4
+[Demo](https://baby-sign-language.vercel.app/) · [GitHub](https://github.com/TheoGibbons/baby-sign-language)
 
+To use: click the link. Optionally create an account to save signs to a list.
 
-## <img src="https://www.shred-link.com/favicon.svg" alt="App Icon" height="25px"> Sred Link
+Re-skin of [babysignlanguage.com](https://www.babysignlanguage.com).
 
-[Link](http://www.shred-link.com/)
+- Instant search
+- Log in with only a username
+- Create favourite lists
+- Add/remove signs from lists
+- Embedded YouTube links
+- Many list view options
+- Next.js
+
+**Use:** 0 · **Size:** 4
+
+## <img src="https://www.shred-link.com/favicon.svg" alt="App Icon" height="25px"> Shred Link
+
+![No account](https://img.shields.io/badge/no%20account-blue) ![Self destructing](https://img.shields.io/badge/self%20destructing-blue) ![File uploads](https://img.shields.io/badge/file%20uploads-blue)
+
+[Link](https://www.shred-link.com/)
 
 Share a secret over a link that destroys itself. Paste text, attach files, set a view limit and/or a time limit, and the content is erased from the server the moment either limit is reached. One container, no external services, no accounts.
 
-Use: 0
-Size: 4
-
+**Use:** 0 · **Size:** 4
 
 ## Password Generator
 
-[Demo](https://theogibbons.github.io/password-generator/index.html)
-[GitHub](https://github.com/TheoGibbons/password-generator)
+![No account](https://img.shields.io/badge/no%20account-blue) ![Client side](https://img.shields.io/badge/client%20side-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
+
+[Demo](https://theogibbons.github.io/password-generator/index.html) · [GitHub](https://github.com/TheoGibbons/password-generator)
 
 Generates passwords... Simple.
 
-Use: 0
-Size: 1
-
+**Use:** 0 · **Size:** 1
 
 ## <img src="https://theogibbons.github.io/timezone-converter/favicon.ico" alt="App Icon" height="25px" style="background:white"> Timezone Converter
 
-[https://theogibbons.github.io/timezone-converter/index.html](https://theogibbons.github.io/timezone-converter/index.html)
-[GitHub](https://github.com/TheoGibbons/timezone-converter)
+![No account](https://img.shields.io/badge/no%20account-blue) ![Client side](https://img.shields.io/badge/client%20side-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
 
-What time is it in another timezone?
-Add as many timezones as you want.
-Page state automatically saves to LocalStorage
-The list of available timezones comes from the browser's JavaScript environment so every timezone is supported.
+[Link](https://theogibbons.github.io/timezone-converter/index.html) · [GitHub](https://github.com/TheoGibbons/timezone-converter)
 
-Use: 0
-Size: 1
+What time is it in another timezone? Add as many timezones as you want.
 
+- Page state saves automatically to LocalStorage
+- The list of available timezones comes from the browser's JavaScript environment, so every timezone is supported
 
+**Use:** 0 · **Size:** 1
 
 # Info
+
 *Are these all just vibe coded apps?*
-> Most of these where built before LLM's were a thing but where never published publicly. LLM's made publishing and Generating readme's simpler, hence being published recently.
+
+> Most of these were built before LLMs were a thing, but were never published publicly. LLMs made publishing and generating READMEs simpler, hence them being published recently.
