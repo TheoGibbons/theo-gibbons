@@ -73,11 +73,11 @@ Send any email from your app with the knowledge that it won't reach a real user,
 
 **Use:** 3 · **Size:** 8
 
-## <img src="https://mysql-browser.sinkmailer.com/favicon.svg" alt="App Icon" height="25px"> MySQL Browser
+## <img src="https://www.mysql-browser.com/favicon.svg" alt="App Icon" height="25px"> MySQL Browser
 
 ![Desktop app](https://img.shields.io/badge/desktop%20app-blue) ![Windows](https://img.shields.io/badge/windows-blue) ![Electron](https://img.shields.io/badge/electron-blue) ![SSH](https://img.shields.io/badge/ssh-blue) ![Auto updates](https://img.shields.io/badge/auto%20updates-blue)
 
-[Link](https://mysql-browser.sinkmailer.com/)
+[Link](https://www.mysql-browser.com/)
 
 The fastest and simplest MySQL and Postgres browser you'll use.
 
