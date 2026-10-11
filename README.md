@@ -25,6 +25,8 @@ Control a Windows PC from Android, control Android from Windows, control one PC 
 - Self-host the relay with one `docker compose` deployment, standalone or behind Traefik
 - Windows app in C#/WPF (.NET 8), Android app in Kotlin, relay in Node.js
 
+**Privacy mode:** tap **Privacy** while viewing a Windows PC from Android to black out its physical monitors and block local keyboard and mouse input while you continue viewing and controlling it remotely. Tap **Show PC** or type `unlock` on the PC's keyboard to restore local access.
+
 **Use:** 3 · **Size:** 9
 
 ## <img src="https://theogibbons.github.io/notes/favicon.png" alt="App Icon" height="25px"> Notes (aka Simple Drawing Pad)
@@ -409,6 +411,23 @@ Dumps your MySQL databases, zips them up alongside your web directories, and upl
 - Runs from crontab
 
 **Use:** 6 · **Size:** 3
+
+## Privacy Screen
+
+![No account](https://img.shields.io/badge/no%20account-blue) ![Windows](https://img.shields.io/badge/windows-blue) ![Offline](https://img.shields.io/badge/offline-blue) ![Portable](https://img.shields.io/badge/portable-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
+
+[GitHub](https://github.com/TheoGibbons/privacy-screen)
+
+To use: launch `dist\PrivacyScreen.exe`. Type `unlock` to restore the desktop.
+
+Cover all your monitors with a black screen and a small "type unlock" caption. A visual privacy cover with a fixed unlock phrase.
+
+- Covers every monitor and adapts when monitors are added or removed
+- Suppresses ordinary keyboard and mouse input, and hides the cursor
+- One self-contained Windows x64 EXE, with no .NET installation needed to run it
+- Restores the cursor on exit, with a helper to recover it after a crash
+
+**Use:** 0 · **Size:** 0
 
 # Info
 
