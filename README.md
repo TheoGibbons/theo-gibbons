@@ -302,6 +302,26 @@ Adds image zooming to a web page. Wrap an image in a `.zoomer-container` div, in
 
 **Use:** 2 · **Size:** 2
 
+## <img src="https://theogibbons.github.io/box/icon.svg" alt="App Icon" height="25px"> Box
+
+![No account](https://img.shields.io/badge/no%20account-blue) ![Client side](https://img.shields.io/badge/client%20side-blue) ![Offline](https://img.shields.io/badge/offline-blue) ![PWA](https://img.shields.io/badge/pwa-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
+
+[Demo](https://theogibbons.github.io/box/) · [GitHub](https://github.com/TheoGibbons/box)
+
+To use: click the link. Best on a phone — allow motion access if prompted, then tilt and shake it to move the objects. No account needed.
+
+Hundreds of 3D objects in a shallow box behind your screen. Moving your phone changes the view into the box with parallax, while tilting and shaking sends the objects tumbling around.
+
+- Up to 900 objects, with mixed shapes or just cubes, balls, pills or pucks
+- Phone motion controls, plus mouse and keyboard controls on desktop
+- Tap to blast objects, drag to stir them, or use the shake button
+- Customise colours, materials, lighting, box depth and physics
+- Settings save automatically to LocalStorage
+- Installable PWA that works offline
+- Built with TypeScript, Three.js, Rapier and Vite, with no backend
+
+**Use:** 0 · **Size:** 0
+
 ## Tank Track Simulator
 
 ![No account](https://img.shields.io/badge/no%20account-blue) ![Client side](https://img.shields.io/badge/client%20side-blue) ![No dependencies](https://img.shields.io/badge/no%20dependencies-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
