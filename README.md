@@ -430,9 +430,9 @@ Dumps your MySQL databases, zips them up alongside your web directories, and upl
 - `restore.php` walks you back through a restore with a wizard
 - Runs from crontab
 
-**Use:** 6 · **Size:** 3
+**Use:** 6 · **Size:** 5
 
-## Privacy Screen
+## <img src="https://raw.githubusercontent.com/TheoGibbons/privacy-screen/refs/heads/main/src/PrivacyScreen/Assets/app.ico" alt="App Icon" height="25px"> Privacy Screen
 
 ![No account](https://img.shields.io/badge/no%20account-blue) ![Windows](https://img.shields.io/badge/windows-blue) ![Offline](https://img.shields.io/badge/offline-blue) ![Portable](https://img.shields.io/badge/portable-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
 
@@ -448,6 +448,24 @@ Cover all your monitors with a black screen and a small "type unlock" caption. A
 - Restores the cursor on exit, with a helper to recover it after a crash
 
 **Use:** 0 · **Size:** 0
+
+## <img src="https://theogibbons.github.io/whitehorse-activities/icon.svg" alt="App Icon" height="25px"> What's On Today (Whitehorse Activities)
+
+![No account](https://img.shields.io/badge/no%20account-blue) ![Hourly updates](https://img.shields.io/badge/hourly%20updates-blue) ![GitHub Actions](https://img.shields.io/badge/github%20actions-blue) ![No dependencies](https://img.shields.io/badge/no%20dependencies-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
+
+[Link](https://theogibbons.github.io/whitehorse-activities/) · [GitHub](https://github.com/TheoGibbons/whitehorse-activities)
+
+To use: click the link. No account needed.
+
+One page that shows today's swimming and ice skating sessions from the City of Whitehorse booking site, plus the Polarettes open-gym drop-in schedule. You don't have to click through the city's booking calendars to find out what's on.
+
+- A GitHub Action scrapes the sources every hour and publishes a static page to GitHub Pages
+- Sessions that have finished are dimmed, and the ones running now are highlighted
+- Shows a warning if the page hasn't refreshed today
+- Light and dark themes that follow your system setting
+- One Node script with no dependencies. It runs the scrape server side because the booking site doesn't send CORS headers
+
+**Use:** 0 · **Size:** 1
 
 # Info
 
