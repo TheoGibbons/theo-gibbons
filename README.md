@@ -1,8 +1,8 @@
 # A list of some of my projects
 
-Each project has two ratings, scored between 0 and 10 (10 being the most difficult):
+Each project has two ratings, scored between 0 and 10:
 
-- **Use** — how much effort it takes to try it out. Most apps you can just click the link and use without creating an account.
+- **Use** — how much effort it takes to try it out.  10 being the most complex to set up. Most apps  are a 0 or 1 and you can just click the link and use without creating an account.
 - **Size** — how big the app is. E.g. a single page app hosted on GitHub Pages with no server is a 0, but something that needs a server, DNS config etc. is higher.
 
 ## <img src="https://www.remote-desktop.co/favicon.svg" alt="App Icon" height="25px"> Remote Desktop
@@ -18,6 +18,7 @@ Control a Windows PC from Android, control Android from Windows, control one PC 
 - Phone → PC: touchpad-style pointer, full on-screen keyboard (including Win, Ctrl, Alt and Shift), every monitor stitched into one canvas, pinch to zoom
 - PC → Phone: tap, swipe, Back, Home and Recents on the phone's screen
 - PC ↔ PC: the same screen stream plus your physical keyboard and mouse, and a Ctrl+Alt+Del button
+- Drag and drop files between devices
 - File explorer in both directions, so files never pass through a storage service
 - End-to-end encrypted with AES-256-GCM — the relay only ever sees ciphertext
 - Every install has its own keypair, and a new device triggers an approve/deny prompt with a device code to compare
@@ -464,6 +465,26 @@ One page that shows today's swimming and ice skating sessions from the City of W
 - Shows a warning if the page hasn't refreshed today
 - Light and dark themes that follow your system setting
 - One Node script with no dependencies. It runs the scrape server side because the booking site doesn't send CORS headers
+
+**Use:** 0 · **Size:** 1
+
+## <img src="https://theogibbons.github.io/record-yourself/icons/icon.svg" alt="App Icon" height="25px"> Record Yourself
+
+![No account](https://img.shields.io/badge/no%20account-blue) ![PWA](https://img.shields.io/badge/pwa-blue) ![Offline](https://img.shields.io/badge/offline-blue) ![No dependencies](https://img.shields.io/badge/no%20dependencies-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
+
+[Link](https://theogibbons.github.io/record-yourself/) · [GitHub](https://github.com/TheoGibbons/record-yourself)
+
+To use: click the link and allow camera/mic access. No account needed.
+
+Works like Slack's "Record video clip". Record your camera, your screen, or both, with your mic. When you stop, preview the clip and download it.
+
+- Camera, screen and mic toggles, plus a camera and mic picker
+- Screen + camera puts your camera in a round bubble in the corner, like Slack and Loom
+- 3-2-1 countdown, a live timer, and a mic level indicator
+- Mute the mic or turn the camera off mid-recording
+- Downloads as MP4 (WebM in Firefox)
+- Nothing is uploaded. Recording happens entirely in the browser
+- Installable PWA that works offline
 
 **Use:** 0 · **Size:** 1
 
