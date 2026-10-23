@@ -488,6 +488,32 @@ Works like Slack's "Record video clip". Record your camera, your screen, or both
 
 **Use:** 0 · **Size:** 1
 
+## Render Service (Playwright)
+
+![API](https://img.shields.io/badge/api-blue) ![Docker](https://img.shields.io/badge/docker-blue) ![Self hostable](https://img.shields.io/badge/self%20hostable-blue) ![Playwright](https://img.shields.io/badge/playwright-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
+
+[GitHub](https://github.com/TheoGibbons/playwright)
+
+To use:
+```bash
+KEY=<the API_KEYS>
+curl -H "Authorization: Bearer $KEY" -H 'content-type: application/json' -d '{"url":"https://example.com"}' -o page.png https://playwright.sinkmailer.com/render
+```
+
+An HTTP API that opens a URL in headless Chromium, waits for the page's JavaScript to finish, and sends back a full-page screenshot, a PDF, the rendered HTML or an MHTML archive. Protected by API keys and runs as a single Docker container.
+
+- PNG, JPEG, WebP, PDF, HTML or MHTML from one endpoint
+- You choose how to wait for single-page apps: until the page settles, an element appears, a JS expression is true, or the network goes idle
+- Scrolls to the bottom first so lazy images and infinite scroll content load
+- Tall pages are captured in tiles and stitched together, so they don't come out with repeated or blank sections. Pages that are still too tall can be truncated, scaled down, returned as a zip of tiles, or rejected
+- Optionally blocks ads, trackers and cookie banners, or hides elements by selector
+- All of Chromium's traffic goes through a proxy that refuses private and internal addresses, so nobody can use it to reach your network
+- Closes Chromium when it's idle to save memory
+- Deploys on push to `main` with zero downtime, behind Traefik
+- The tests drive a real browser end to end
+
+**Use:** 0 · **Size:** 2
+
 # Info
 
 *Are these all just vibe coded apps?*
