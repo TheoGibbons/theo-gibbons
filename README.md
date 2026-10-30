@@ -514,8 +514,118 @@ An HTTP API that opens a URL in headless Chromium, waits for the page's JavaScri
 
 **Use:** 0 · **Size:** 2
 
+## <img src="https://theogibbons.github.io/markdown-live-preview/favicon.png" alt="App Icon" height="25px"> Markdown Live Preview
+
+![No account](https://img.shields.io/badge/no%20account-blue) ![PWA](https://img.shields.io/badge/pwa-blue) ![Offline](https://img.shields.io/badge/offline-blue) ![Fork](https://img.shields.io/badge/fork-blue) ![Open source](https://img.shields.io/badge/open%20source-blue)
+
+[Link](https://theogibbons.github.io/markdown-live-preview/) · [GitHub](https://github.com/TheoGibbons/markdown-live-preview)
+
+To use: click the link and start typing. No account needed.
+
+A Markdown editor with a live preview beside it. It's a fork of [tanabe/markdown-live-preview](https://github.com/tanabe/markdown-live-preview) with local autosaves and offline support added.
+
+- Nothing is uploaded and there's no analytics. Everything stays in your browser
+- Autosaves a snapshot every 10 seconds when the text changes. Hover over an autosave to preview it, then load it or rename it
+- Your current draft comes back when you reopen the page
+- Open a local `.md`
+- Export to PDF
+- Installable PWA that works offline
+
+**Use:** 0 · **Size:** 1
+
 # Info
 
-*Are these all just vibe coded apps?*
+I build apps to be fast and easy to use, so you can spend less time on your computer and more time doing other things. I also build apps I use myself, shaped around how I actually use them.
 
-> Most of these were built before LLMs were a thing, but were never published publicly. LLMs made publishing and generating READMEs simpler, hence them being published recently.
+## Are these all just vibe coded apps?
+
+Most of these were built before LLMs were a thing, but I never published them. LLMs made publishing them and writing the READMEs much easier, which is why they've only appeared recently.
+
+## Why don't any of them need an account?
+
+I've never understood why simple apps make you sign up. Why should an offline paint app need an account? Usually it's so the company can collect your data.
+
+My apps only ask for an account when a feature can't work without one. Where I can, the rest of the app still works without signing in, and only that one feature is turned off.
+
+## Why are they so privacy focused?
+
+For the same reason. When you use one of my apps, I want you to know I've done everything I reasonably can to keep your data from leaking.
+
+That said, I put convenience ahead of maximum security. Most of my apps don't have MFA, for example. If I were building a banking app I'd add MFA and email confirmation for new devices, but my apps hold as little personal data as possible. And nobody should have to log in to use a notepad.
+
+## Why build something that already exists?
+
+Usually because I used the existing app, hit something that annoyed me, and built my own version that fixes it.
+
+Record Yourself is a good example. Loom needs an account, uploads everything to the cloud, and has limits unless you pay. Slack's version caps clips at 5 minutes. If you just want to record yourself and keep the file on your own computer, with no limits, Record Yourself does that.
+
+## Why are so many of them installable PWAs?
+
+If you use an app regularly, it should open fast, so I try to cut down the clicks it takes to get into it. Notes (Simple Drawing Pad), for example, is meant to replace Microsoft Paint. Installed as a PWA, it's open and ready to draw on faster than Paint is.
+
+## Do you actually use these?
+
+Yes, most of them. The ones I use most:
+
+- **Remote Desktop**: I use this heavily. I can check on something running on my home PC while I'm out in town, or see whether a task has finished while I'm downstairs with my kid, without leaving him to go look. I also use it a lot to screenshot my phone from my computer.
+- **Notes (Simple Drawing Pad)**: every day, mostly for marking up screenshots. I draw arrows between images to show how pages flow, or highlight parts of an image before sending it to someone. What I like most is how fast it is.
+- **Privacy Screen**: probably the app I use the most. My kid likes to bash the keyboard and click around, and this locks the mouse and keyboard with one click so he can't drop a production database while I'm not looking. I also turn it on when I leave my computer running overnight, to save some power and reduce light pollution.
+- **MySQL Browser**: every day. It's fast and built around how I work with databases, and I love it. It's a shame LLMs are making apps like this less necessary. Ten years ago it would have been a game changer.
+- **Sink Mailer**: for all my local and staging apps.
+- **Timezone Converter**: the quickest way I know to compare times and plan meetings between timezones.
+- **Measure the Baby**: not daily, but often. The percentile data is solid and accurate.
+
+## Which ones are you most proud of?
+
+- **Remote Desktop**: it's fast and easy to use, and it has a one-time setup that I couldn't find in any other remote desktop app.
+- **MySQL Browser**: it works exactly the way I need it to, without the feature bloat of traditional SQL clients.
+- **Sink Mailer**: it just works well with emails arriving in seconds.
+
+## Why does Windows warn me about your apps, and why aren't they on the Play Store?
+
+This has been the hardest part of the whole thing.
+
+On Windows, Microsoft Defender SmartScreen warns people about apps that haven't been downloaded much yet. Until an app is widely used, people think they're downloading a virus. I pay for Microsoft's code signing service, expecting that to fix it, but it hasn't helped at all.
+
+On Android, since late 2023, new personal developer accounts can only publish to the Play Store after running a closed test with at least 12 testers who stay opted in for 14 days straight. For side projects that's too much hassle to be worth it, so my Android apps are only available as an APK.
+
+Because Windows and Android make my apps hard to install, few people use them, so they stay flagged. Apps like Remote Desktop, which can see your screen and click and type, get flagged even harder, even though everything is end-to-end encrypted.
+
+It's disheartening to build apps I'm proud of, knowing that because of this, probably nobody but me will use them.
+
+## Why is Markdown Live Preview a fork instead of a contribution to the original?
+
+My changes are big and take the app in quite a different direction from the original. I think it's too much of a change for them to merge.
+
+## Are they maintained?
+
+Nearly all of them. If I or anyone else needs a change, I'll update them. A few are finished and probably won't change again: Astroneer EVA Spawn Fix, Unix Simple Website Backup, QR Video and Tailwind Class Search.
+
+## Will they stay free?
+
+I doubt they'll all stay free. They run on a small server, so if any of them gets popular enough to outgrow it, I'll need to monetise it to pay server costs, but at the moment they are all free.
+
+## Can I report a bug or ask for a feature?
+
+Yes. Open an issue on the app's GitHub repo, and I'll get to it as soon as I can.
+
+## Can I use the code?
+
+Yes. For any of my public repos, fork it, copy it, do whatever you like with it. It comes as is, though, and I'm not liable for any problems.
+
+## Do you have other apps?
+
+Yes. A bunch, the ones listed above are just the ones that have something public facing.
+
+## What do you use to build and host them?
+
+- WSL and Windows Terminal (my own heavily modified fork)
+- IntelliJ IDEA
+- Notepad++ (the best piece of software ever written)
+- Claude and Codex
+- Docker, Traefik, nginx and sometimes even IIS
+- MySQL and Postgres
+- AWS (EC2, RDS, SES, SNS, Route 53, S3, Glacier, plus more)
+- Git
+- GitHub Pages
+- Plus many others
